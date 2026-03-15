@@ -36,10 +36,7 @@ if(amtval==="" || amtval<1){
 
     let ratefrom = data.eur[fromCurr.value.toLowerCase()];
     let rateto =   data.eur[toCurr.value.toLowerCase()];
-    console.log(ratefrom);
-    console.log(rateto);
     let rate = rateto/ratefrom;
-    console.log(rate);
 
     let finalamt= amtval*rate;
   
